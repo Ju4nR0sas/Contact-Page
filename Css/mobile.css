@@ -8,6 +8,7 @@
 html {
     /* 1px = 0.1rem */
     font-size: 62.5%;
+    font-family: "Be Vietnam Pro";
 }
 
 :root {
@@ -23,4 +24,66 @@ html {
     --text-placeholder: #CDD5E0;
     --background-input: #F8FAFC;
     --white: #FFFFFF;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(-50deg, #7329c4, #cc4d8d); */
+    background-image: url(..//Resources/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+.text {
+    padding: 5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text h1 {
+    font-size: 6rem;
+}
+
+.text p {
+    font-size: var(--header);
+}
+
+.container_form {
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    width: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.label {
+
+}
+
+.inputs {
+    border: none;
+    border-radius: 2rem;
+    height: 7rem;
+    width: 40rem;
 }
