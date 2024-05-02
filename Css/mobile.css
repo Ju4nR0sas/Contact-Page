@@ -1,0 +1,26 @@
+/* IMPORTANTE */
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1px = 0.1rem */
+    font-size: 62.5%;
+}
+
+:root {
+    /* Font-size */
+    --title: 6.4rem;
+    --header: 3.2rem;
+    --text: 1.6rem;
+    --label: 1.4rem;
+
+    /* Colors */
+    --background: #4036A9;
+    --text-input: #111729;
+    --text-placeholder: #CDD5E0;
+    --background-input: #F8FAFC;
+    --white: #FFFFFF;
+}
