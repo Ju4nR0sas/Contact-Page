@@ -1,0 +1,149 @@
+/* IMPORTANTE */
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1px = 0.1rem */
+    font-size: 62.5%;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+:root {
+    /* Font-size */
+    --title: 6.4rem;
+    --header: 3.2rem;
+    --body: 1.6rem;
+    --label: 1.4rem;
+    --button-text: 2rem;
+
+    /* Colors */
+    --background: #4036A9;
+    --text-input: #111729;
+    --text-placeholder: #CDD5E0;
+    --background-input: #F8FAFC;
+    --white: #FFFFFF;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(-50deg, #7329c4, #cc4d8d); */
+    background-image: url(..//Resources/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    align-self: start;
+    padding: 2.8rem;
+}
+
+/* Initial Text */
+.text {
+    padding: 2rem;
+    padding-top: 0;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    margin-bottom: 4.4rem;
+}
+
+.text h1 {
+    font-size: 4.8rem;
+    margin-bottom: 1.8rem;
+    /* font-size: var(--title); */
+}
+
+.text p {
+    font-size: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 3rem;
+    /* font-size: var(--header); */
+}
+
+/* Form */
+.container_form {
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.247);
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+label {
+    font-size: var(--label);
+    color: white;
+    margin-bottom: 0.8rem;
+}
+
+.inputs {
+    border: none;
+    border-radius: 1.8rem;
+    height: 5rem;
+    width: 52rem;
+    margin-bottom: 2.8rem;
+    font-size: var(--body);
+}
+
+input {
+    padding: 1.4rem;
+}
+
+#message {
+    height: 15rem;
+}
+
+.inputs::placeholder {
+    color: var(--text-placeholder);
+    font-size: var(--body);
+    font-weight: bold;
+}
+
+
+#company::placeholder,
+#subject::placeholder,
+#message::placeholder {
+    color: black;
+}
+
+#message::-webkit-input-placeholder{
+    position: absolute;
+    top: 2rem;
+}
+
+#company,
+#subject {
+    background-image: url(/Resources/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+#button {
+    border: none;
+    border-radius: 1.8rem;
+    padding: 2.8rem;
+    background-color: white;
+    color: var(--background);
+    font-size: var(--button-text);
+    font-weight: bold;
+    margin-bottom: 6rem;
+}
