@@ -89,6 +89,11 @@ form {
     padding: 3rem;
 }
 
+.container_input {
+    display: flex;
+    flex-direction: column;
+}
+
 label {
     font-size: var(--label);
     color: white;
@@ -138,6 +143,7 @@ input {
 }
 
 #button {
+    width: 100%;
     border: none;
     border-radius: 1.8rem;
     padding: 2.8rem;
