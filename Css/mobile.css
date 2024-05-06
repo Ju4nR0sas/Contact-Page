@@ -113,6 +113,7 @@ input {
 }
 
 .inputs::placeholder {
+    color: var(--text-placeholder);
     font-size: var(--body);
     font-weight: bold;
 }
@@ -133,7 +134,7 @@ input {
 #subject {
     background-image: url(/Resources/Expand_down.svg);
     background-repeat: no-repeat;
-    background-position: 98%;
+    background-position: 95%;
 }
 
 #button {
