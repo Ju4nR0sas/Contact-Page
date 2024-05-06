@@ -43,28 +43,38 @@ body {
 }
 
 .logo {
-    position: absolute;
-    left: 2rem;
-    top: 2rem;
+    align-self: start;
+    padding: 2.8rem;
 }
 
+/* Initial Text */
 .text {
-    padding: 5rem;
+    padding: 2rem;
+    padding-top: 0;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 4.4rem;
 }
 
 .text h1 {
-    font-size: 6rem;
+    font-size: 4.8rem;
+    margin-bottom: 1.8rem;
+    /* font-size: var(--title); */
 }
 
 .text p {
-    font-size: var(--header);
+    font-size: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 3rem;
+    margin: 0;
+    /* font-size: var(--header); */
 }
 
+/* Form */
 .container_form {
     border-radius: 2rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.247);
     height: auto;
     width: auto;
 }
@@ -76,9 +86,9 @@ form {
     padding: 2rem;
 }
 
-
-.label {
-
+label {
+    font-size: var(--label);
+    color: white;
 }
 
 .inputs {
